@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var uuid = require('node-uuid');
+var uuid = require('uuid');
 var logger = require('morgan');
 
 var pg = require('pg');
